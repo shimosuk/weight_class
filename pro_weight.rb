@@ -6,6 +6,8 @@ def weight_class(kilograms)
     "minimum"
   when 47.61..48.97
     "light fly"
+  when 48.97..50.80
+    "fly"
   else
     "heavy"
   end

@@ -11,6 +11,10 @@ describe "test_get_class" do
     weight_class(48.97).should == "light fly"
   end
   specify do
+    weight_class(48.98).should == "fly"
+    weight_class(50.80).should == "fly"
+  end
+  specify do
     weight_class(86.18).should == "heavy"
   end
 end
