@@ -22,6 +22,18 @@ def weight_class(kilograms)
     "light"
   when 61.23..63.50
     "super light"
+  when 63.50..66.68
+    "welter"
+  when 66.68..69.85
+    "super welter"
+  when 69.85..72.57
+    "middle"
+  when 72.57..76.20
+    "super middle"
+  when 76.20..79.38
+    "light heavy"
+  when 79.38..86.18
+    "cruiser"
   else
     "heavy"
   end

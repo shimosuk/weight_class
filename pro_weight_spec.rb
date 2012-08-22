@@ -36,6 +36,24 @@ describe "test_get_class" do
     weight_class(62).should == "super light"
   end
   specify do
-    weight_class(86.18).should == "heavy"
+    weight_class(65).should == "welter"
+  end
+  specify do
+    weight_class(68).should == "super welter"
+  end
+  specify do
+    weight_class(71).should == "middle"
+  end
+  specify do
+    weight_class(75).should == "super middle"
+  end
+  specify do
+    weight_class(78).should == "light heavy"
+  end
+  specify do
+    weight_class(83).should == "cruiser"
+  end
+  specify do
+    weight_class(86.181).should == "heavy"
   end
 end
